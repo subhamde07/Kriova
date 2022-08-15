@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="login_signup.css">
+    <title>Document</title>
+</head>
+<body>
+    
+    <div class="container">
+        <div class="overlay" id="overlay">
+            <div class="sign-in" id="sign-in">
+                <h1>Welcome Back!</h1>
+                <p>To keep connected with us please login with your personal info</p>
+                <button class="switch-button" id="slide-right-button">Sign In</button>
+                <a href="../../index.html"><spam>Back to Home</spam></a>
+            </div>
+            <div class="sign-up" id="sign-up">
+                <h1>Hello, Friend!</h1>
+                <p>Enter your personal details and start a journey with us</p>
+                <button class="switch-button" id="slide-left-button">Sign Up</button>
+                <a href="../../index.html">
+                    <spam>Back to Home</spam>
+                </a>
+            </div>
+        </div>
+        <div class="form">
+            <div class="sign-in" id="sign-in-info">
+                <h1>Sign In</h1>
+                <div class="social-buttons">
+                    <a href="#"><i class="fa fa-facebook icon"></i></a>
+                    <a href="#"><i class="fa fa-google-plus icon"></i></a>
+                    <a href="#"><i class="fa fa-linkedin icon"></i></a>
+                    <a href="#"><i class="fa fa-github icon"></i></a>
+                </div>
+                <p class="small">or use your email account:</p>
+                <form id="sign-in-form">
+                    <input type="email" placeholder="Email" />
+                    <input type="password" placeholder="Password" />
+                    <a href="passReset.html"><p class="forgot-password">Forgot your password?</p></a>
+                    <!-- <p class="forgot-password">Forgot your password?</p> -->
+                    <button class="control-button in">Sign In</button>
+                </form>
+            </div>
+            <div class="sign-up" id="sign-up-info">
+                <h1>Create Account</h1>
+                <div class="social-buttons">
+                    <a href="#"><i class="fa fa-facebook icon"></i></a>
+                    <a href="#"><i class="fa fa-google-plus icon"></i></a>
+                    <a href="#"><i class="fa fa-linkedin icon"></i></a>
+                    <a href="#"><i class="fa fa-github icon"></i></a>
+                </div>
+                <p class="small">or use your email for registration:</p>
+                <form id="sign-up-form">
+                    <input type="text" placeholder="Name" />
+                    <input type="email" placeholder="Email" />
+                    <input type="password" placeholder="Password" />
+                    <input type="password" placeholder="Confirm Password" />
+                    <button class="control-button up">Sign Up</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <script src="login_signup.js"></script>
+</body>
+</html>
